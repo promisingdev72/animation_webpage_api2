@@ -16,7 +16,7 @@ exports.sendEmail = (req, res) => {
     },
   });
 
-  const messageHtml = `<div>This is a request sent from the website alitheia-studios.ch</div><br/><div>${message}</div><br/><div>This is ${name} sending a request from alitheia-studios.ch</div>`;
+  const messageHtml = `<div>This is a request sent from the website 3sigma-studios.com</div><br/><div>${message}</div><br/><div>This is ${name} sending a request from 3sigma-studios.com</div>`;
 
   const mailOptions = {
     from: "nermine.makrem@alitheia-studios.ch",
